@@ -1,0 +1,20 @@
+﻿
+logs\error.log:44:{"detail
+":"{\"error\":{\"message\"
+:\"The model 
+`llama3-8b-8192` has been 
+decommissioned and is no 
+longer supported. Please 
+refer to https://console.g
+roq.com/docs/deprecations 
+for a recommendation on 
+which model to use instead
+.\",\"type\":\"invalid_req
+uest_error\",\"code\":\"mo
+del_decommissioned\"}}\n",
+"level":"error","message":
+"Groq API error","status":
+400,"timestamp":"2026-03-1
+2T07:12:06.308Z"}
+
+

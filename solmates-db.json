@@ -1,0 +1,337 @@
+{
+  "_id": "main",
+  "content": {
+    "notes": [],
+    "pyq": [],
+    "oneshot": [],
+    "elearning": [],
+    "professor": [],
+    "classes": [
+      {
+        "id": "828158bb0d3070f1ee96e522c6d822f7",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/A59.pdf",
+        "platform": "other",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.120Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "98a6ddf5a75a85c4df92b343de98920d",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/A66.pdf",
+        "platform": "other",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.122Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "384adb128357a473997ca7ccae6f4a0f",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/A63.pdf",
+        "platform": "other",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.122Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "1be3ab727c2b1e042579e4a1586dc04d",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/106.jpeg",
+        "platform": "other",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.122Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "bc1b61b6bb311ce6f0326d20e4187801",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818171976?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818171976&teamName=MBA-2024&channelName=General&createdTime=1773818171976",
+        "platform": "teams",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.122Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "525bf1b83e5e1a5bea3872e0d00d74e6",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818005660?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818005660&teamName=MBA-2024&channelName=General&createdTime=1773818005660",
+        "platform": "teams",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.122Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "95ddd83440944d18837ef6d82e026726",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818215105?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818215105&teamName=MBA-2024&channelName=General&createdTime=1773818215105",
+        "platform": "teams",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.122Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "99bad7d4a70c8b80ac3c74b6ba9b8f07",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818082613?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818082613&teamName=MBA-2024&channelName=General&createdTime=1773818082613",
+        "platform": "teams",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.122Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "c83b568539f53f7478d4a4fc4edc5d06",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818253705?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818253705&teamName=MBA-2024&channelName=General&createdTime=1773818253705",
+        "platform": "teams",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.122Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      },
+      {
+        "id": "43ae6d20eeb883175afabb21dc3c6e0e",
+        "title": "Live Class",
+        "subject": "Live Class",
+        "time": "TBD",
+        "date": null,
+        "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/A69.pdf",
+        "platform": "other",
+        "semester": "1",
+        "uploadedAt": "2026-03-22T22:29:07.123Z",
+        "uploadedBy": "system-recovery",
+        "semesters": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "sol_live_classes": [],
+  "sol_notes": [],
+  "sol_pyqs": [],
+  "sol_oneshot": [],
+  "sol_youtube": [],
+  "sol_elearning": [],
+  "sol_professor": [],
+  "sol_ai_knowledge": [],
+  "youtube_videos": [],
+  "live_classes": [],
+  "tools": [],
+  "skills": [],
+  "resumes": [],
+  "admin_sessions": [],
+  "failed_login_attempts": [],
+  "account_lockouts": [],
+  "semester_links": {},
+  "youtube_folder_links": {},
+  "folders": [],
+  "resume_drafts": [],
+  "career_test_results": [],
+  "interview_sessions": [],
+  "study_plans": [],
+  "sol_recorded_class": [
+    {
+      "id": "828158bb0d3070f1ee96e522c6d822f7",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/A59.pdf",
+      "platform": "other",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.120Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "98a6ddf5a75a85c4df92b343de98920d",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/A66.pdf",
+      "platform": "other",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.122Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "384adb128357a473997ca7ccae6f4a0f",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/A63.pdf",
+      "platform": "other",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.122Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "1be3ab727c2b1e042579e4a1586dc04d",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/106.jpeg",
+      "platform": "other",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.122Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "bc1b61b6bb311ce6f0326d20e4187801",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818171976?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818171976&teamName=MBA-2024&channelName=General&createdTime=1773818171976",
+      "platform": "teams",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.122Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "525bf1b83e5e1a5bea3872e0d00d74e6",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818005660?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818005660&teamName=MBA-2024&channelName=General&createdTime=1773818005660",
+      "platform": "teams",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.122Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "95ddd83440944d18837ef6d82e026726",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818215105?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818215105&teamName=MBA-2024&channelName=General&createdTime=1773818215105",
+      "platform": "teams",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.122Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "99bad7d4a70c8b80ac3c74b6ba9b8f07",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818082613?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818082613&teamName=MBA-2024&channelName=General&createdTime=1773818082613",
+      "platform": "teams",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.122Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "c83b568539f53f7478d4a4fc4edc5d06",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://teams.microsoft.com/l/message/19:Q7S726WLjYf7veFJ8tJKqudXf9f0WGzXsYWRmsKfn-c1@thread.tacv2/1773818253705?tenantId=d5c5977f-36d4-41a3-b226-4ad8f0e79bbc&groupId=144c8ca7-0772-4ab2-b36c-deeace201958&parentMessageId=1773818253705&teamName=MBA-2024&channelName=General&createdTime=1773818253705",
+      "platform": "teams",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.122Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    },
+    {
+      "id": "43ae6d20eeb883175afabb21dc3c6e0e",
+      "title": "Live Class",
+      "subject": "Live Class",
+      "time": "TBD",
+      "date": null,
+      "url": "https://web.sol.du.ac.in/uploads/pdfs/2025/October/A69.pdf",
+      "platform": "other",
+      "semester": "1",
+      "uploadedAt": "2026-03-22T22:29:07.123Z",
+      "uploadedBy": "system-recovery",
+      "semesters": [
+        "1"
+      ]
+    }
+  ]
+}

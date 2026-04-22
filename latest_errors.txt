@@ -1,0 +1,45 @@
+﻿
+{"detail":"{\"error\":
+{\"message\":\"The 
+model 
+`llama3-8b-8192` has 
+been decommissioned 
+and is no longer 
+supported. Please 
+refer to https://conso
+le.groq.com/docs/depre
+cations for a 
+recommendation on 
+which model to use ins
+tead.\",\"type\":\"inv
+alid_request_error\",\
+"code\":\"model_decomm
+issioned\"}}\n","level
+":"error","message":"G
+roq API error","status
+":400,"timestamp":"202
+6-03-12T07:15:42.113Z"
+}
+{"detail":"{\"error\":
+{\"message\":\"The 
+model 
+`llama3-8b-8192` has 
+been decommissioned 
+and is no longer 
+supported. Please 
+refer to https://conso
+le.groq.com/docs/depre
+cations for a 
+recommendation on 
+which model to use ins
+tead.\",\"type\":\"inv
+alid_request_error\",\
+"code\":\"model_decomm
+issioned\"}}\n","level
+":"error","message":"G
+roq API error","status
+":400,"timestamp":"202
+6-03-12T07:15:42.195Z"
+}
+
+

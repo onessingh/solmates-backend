@@ -1,0 +1,63 @@
+{
+  "name": "solmates-backend-secure",
+  "version": "2.0.0",
+  "description": "SOLMATES Backend - Production Ready & Secure",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "generate-credentials": "node scripts/generate-admin-credentials.js",
+    "test": "jest --coverage",
+    "lint": "eslint \"src/**/*.js\"",
+    "start:prod": "NODE_ENV=production node server.js",
+    "pm2:start": "pm2 start pm2.config.js --env production",
+    "pm2:stop": "pm2 stop solmates-backend",
+    "pm2:logs": "pm2 logs solmates-backend"
+  },
+  "keywords": [
+    "solmates",
+    "backend",
+    "secure"
+  ],
+  "author": "SOLMATES Team",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "docx": "^8.5.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.1.5",
+    "form-data": "^4.0.5",
+    "heic-convert": "^2.1.0",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.8.0",
+    "mongodb": "^6.3.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "sharp": "^0.33.2",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1",
+    "web-push": "^3.6.7",
+    "winston": "^3.11.0",
+    "youtube-sr": "^4.3.11",
+    "youtubei.js": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.1",
+    "jest": "^25.0.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  }
+}
