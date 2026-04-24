@@ -481,7 +481,7 @@ async function addSOLItem(req, res, next) {
       logger.info('Notification skipped: Item added to a LOCKED folder hierarchy', { itemId: newItem.id });
     }
 
-    return res.status(201).json(resJson);
+    return res.status(201).json({ success: true, data: newItem });
   } catch (err) {
     logger.error('SOL addItem error', { error: err.message });
     err.status = err.statusCode || 500;
