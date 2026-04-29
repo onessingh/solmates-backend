@@ -17,6 +17,16 @@ router.post('/login',
 );
 
 /**
+ * @route   POST /api/auth/job-login
+ * @desc    Job Admin login for the Job Portal
+ * @access  Public (rate limited)
+ */
+router.post('/job-login', 
+    authLimiter,
+    authController.jobLogin
+);
+
+/**
  * @route   POST /api/auth/verify
  * @desc    Verify token validity
  * @access  Public

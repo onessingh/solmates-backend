@@ -221,4 +221,73 @@ async function logout(req, res) {
     }
 }
 
-module.exports = { login, verifyToken, logout };
+/**
+ * Job Admin login controller
+ */
+async function jobLogin(req, res, next) {
+    try {
+        const { adminId, password } = req.body;
+        const validId = process.env.JOB_ADMIN_ID || 'jobadmin';
+        
+        if (process.env.JOB_ADMIN_PASSWORD_HASH) {
+            // Secure bcrypt verification against timing attacks
+            const hashToCompare = (adminId === validId)
+                ? process.env.JOB_ADMIN_PASSWORD_HASH
+                : DUMMY_HASH;
+            
+            const isPasswordValid = await bcrypt.compare(password, hashToCompare);
+            if (adminId !== validId || !isPasswordValid) {
+                logger.warn('Failed job admin login attempt', { adminId, ip: req.ip });
+                return res.status(401).json({ success: false, error: 'Invalid Job Admin credentials' });
+            }
+        } else {
+            // Fallback if .env is not configured
+            if (adminId !== 'jobadmin' || password !== 'jobadmin123') {
+                logger.warn('Failed job admin login attempt', { adminId, ip: req.ip });
+                return res.status(401).json({ success: false, error: 'Invalid Job Admin credentials' });
+            }
+        }
+        
+        const now = Date.now();
+        const sessionId = crypto.randomBytes(32).toString('hex');
+
+        await transactDB(async (db) => {
+            if (!db.admin_sessions) db.admin_sessions = [];
+            db.admin_sessions.push({
+                id: sessionId,
+                admin_id: adminId,
+                role: 'jobAdmin',
+                created_at: new Date().toISOString(),
+                last_accessed: new Date().toISOString(),
+                ip: req.ip,
+                user_agent: req.get('user-agent')
+            });
+            return true;
+        });
+
+        const token = jwt.sign(
+            { sessionId, adminId, role: 'jobAdmin' },
+            process.env.JWT_SECRET,
+            {
+                expiresIn: `${parseInt(process.env.SESSION_EXPIRY_HOURS, 10) || 24}h`,
+                issuer: 'solmates-backend',
+                audience: 'solmates-admin',
+                algorithm: 'HS256'
+            }
+        );
+
+        logger.info('Successful job admin login', { adminId, sessionId, ip: req.ip });
+
+        res.json({
+            success: true,
+            token,
+            expiresIn: (parseInt(process.env.SESSION_EXPIRY_HOURS, 10) || 24) * 3600
+        });
+
+    } catch (error) {
+        logger.error('Job Login error', { error: error.message, stack: error.stack });
+        next(error);
+    }
+}
+
+module.exports = { login, verifyToken, logout, jobLogin };
